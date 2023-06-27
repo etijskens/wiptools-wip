@@ -5,16 +5,16 @@
 import sys
 sys.path.insert(0,'.')
 
-import wiptools_wip
+import wiptools
 
 
 def test_hello_default_arg():
-    result = wiptools_wip.hello()
+    result = wiptools.hello()
     assert result == "Hello world!"
 
 
 def test_hello_me():
-    result = wiptools_wip.hello('me')
+    result = wiptools.hello('me')
     assert result == "Hello me!"
 
 

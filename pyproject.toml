@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wiptools-wip"
+name = "wiptools"
 version = "0.0.0"
 description = "Python project skeleton and management"
 authors = ["Bert Tijskens <engelbert.tijskens@uantwerpen.be>"]
@@ -15,7 +15,7 @@ keywords = []
 [tool.poetry.dependencies]
 python = "^3.9"
 
-[tool.poetry.dev.dependencies]
+[tool.poetry.group.dev.dependencies]
 bump2version = "^1.0.1"
 pytest = "^7.3.2"
 

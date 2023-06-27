@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-## Python package wiptools_wip
+## Python package wiptools
 """
 
 __version__ = '0.0.0'
