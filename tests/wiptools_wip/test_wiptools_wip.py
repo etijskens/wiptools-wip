@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Tests for wiptools_wip package."""
+"""Tests for wiptools package."""
 
 import sys
 sys.path.insert(0,'.')
