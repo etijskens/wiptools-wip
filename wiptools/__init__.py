@@ -4,7 +4,7 @@
 ## Python package wiptools
 """
 
-__version__ = '0.0.0'
+__version__ = '0.1.0-dev'
 
 # example code
 def hello(who: str = 'world') -> str:
