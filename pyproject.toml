@@ -18,12 +18,19 @@ python = "^3.9"
 [tool.poetry.group.dev.dependencies]
 bump2version = "^1.0.1"
 pytest = "^7.3.2"
+cookiecutter = "^2.1.1"
+tomlkit = "^0.11.8"
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.4.3"
 mkdocstrings = {extras = ["python"], version = "^0.22.0"}
 mkdocs-material = "^9.1.16"
 mkdocs-autorefs = "^0.4.1"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-video = "^1.5.0"
+python-markdown-math = "^0.8"
 
 [tool.poetry.scripts]
 wip = "wiptools.wip.__main__:main"

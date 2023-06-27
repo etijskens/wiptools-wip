@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 
-"""Tests for wiptools package."""
+"""Tests for {{cookiecutter.package_name}} package."""
 
 import sys
 sys.path.insert(0,'.')
 
-import wiptools
+import {{cookiecutter.package_name}}
 
 
 def test_hello_default_arg():
-    result = wiptools.hello()
+    result = {{cookiecutter.package_name}}.hello()
     assert result == "Hello world!"
 
 
 def test_hello_me():
-    result = wiptools.hello('me')
+    result = {{cookiecutter.package_name}}.hello('me')
     assert result == "Hello me!"
 
 

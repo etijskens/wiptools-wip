@@ -1,0 +1,9 @@
+{
+  "project_name": "project_name",
+  "package_name": "package_name",
+  "project_short_description": "project_short_description",
+  "full_name": "full_name",
+  "email_address": "email_address",
+  "github_username": "github_username",
+  "minimal_python_version": "minimal_python_version"
+}

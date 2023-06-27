@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `wiptools.wip ` CLI."""
+"""Tests for `{{cookiecutter.package_name}}.{{cookiecutter.cli_name}} ` CLI."""
 
 from pathlib import Path
 import sys
@@ -16,7 +16,7 @@ from click import echo
 
 from click.testing import CliRunner
 
-from wiptools.wip.__main__ import main
+from {{cookiecutter.package_name}}.{{cookiecutter.cli_name}}.__main__ import main
 
 
 def test_hello():

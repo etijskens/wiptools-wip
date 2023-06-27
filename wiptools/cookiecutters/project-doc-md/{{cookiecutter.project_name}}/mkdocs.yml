@@ -1,0 +1,40 @@
+# configuration for documentation generation with mkdocs
+# see the help text at the end of the file
+site_name: {{cookiecutter.project_name}}
+
+theme:
+  name: "material"
+
+nav:
+  - index.md
+  - overview.md
+  - api-reference.md
+
+markdown_extensions:
+    - markdown.extensions.admonition
+    - mdx_math:
+        enable_dollar_delimiter: True #for use of inline $..$
+
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML
+
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings
+  - mkdocs-video
+
+# ------------------------------------
+# Generating documentation with mkdocs
+# ------------------------------------
+# For details check out https://realpython.com/python-project-documentation-with-mkdocs/
+# In the project folder, generally (but not necessarily) using the project's virtual environment:
+#   (.venv) > mkdocs serve
+# This command builds a development version of your documentation and makes it available locally
+# in your browser at http://127.0.0.1:8000.
+# To build a static `site/` documentation:
+#   (.venv) > mkdocs build
+# To deploy your documenation on GitHub
+#   (.venv) > mkdocs gh-deploy
+#   INFO - Your documentation should shortly be available at:
+#          https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_name}}/
